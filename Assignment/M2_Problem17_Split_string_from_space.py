@@ -1,0 +1,6 @@
+s1=input('Enter string: ')
+s2,s3=s1.split(' ')
+print(s3[0], end="")
+print(s2[1:])
+print(s2[0], end="")
+print(s3[1:])
